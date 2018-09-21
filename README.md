@@ -4,3 +4,6 @@ This is repository of complete source code to design and implement real-time emb
 
 This operation is summarized below.
 
+## 1)   Scheduling.
+## 2)   Multitasking.
+## 3)   State Machine.
