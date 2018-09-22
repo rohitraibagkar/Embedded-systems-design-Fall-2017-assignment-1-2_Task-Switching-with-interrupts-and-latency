@@ -19,3 +19,28 @@ Thus, microcontroller is performing multitasking. As a result of this, response 
 ## 3)   State Machine.
 
 In this sytem, microcontroller is storing last state of LEDs for its next flipping operation. We have variable to store elapsed time and flipping state accordingly, during every iteration of loop. The output, which is flipping the state of LED (either ON or OFF) is dependent only on the state, and the next state is dependent on the current state (or output), and the input. Hence concept of Finite State machine or particularly speaking, concept of Moore Finite State machine is implemented successfully.
+
+
+# Files in repo::
+
+- Assignment 1 Problem Statement.pdf
+- Assignment 2 Problem Statement.pdf
+- ECE5620_Assignment_1.ino
+- ECE5620_Assignment_2.ino
+- README.md
+
+## Assignment 1 Problem Statement.pdf
+
+This file is problem statement for first task.
+
+## Assignment 2 Problem Statement.pdf
+
+This file is problem statement for second task.
+
+## ECE5620_Assignment_1.ino
+
+Complete arduino sketch solution for first task. This sketch contains functions to receive state of pushbutton inputs, flipping LED state at various frequency and various sequences. Task scheduling, multitasking and State Machine is implemented in this sketch.
+
+## ECE5620_Assignment_2.ino
+
+Complete arduino sketch for second task. This sketch contains all the functionalities of sketch `ECE5620_Assignment_1.ino`. In addition to that, this code has functions to receive analog data from sensor and printing state of LEDs.
