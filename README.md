@@ -14,4 +14,8 @@ Since flipping the state of LED is scheduled to synchronized time, microcontroll
 
 While waiting to flip state of five LEDs according to clock signal, microcontroller is free to accomplish other task. We have assigned additional task of receiving data from sensors and printing state on serial port.
 
+Thus, microcontroller is performing multitasking. As a result of this, response of system is very spontaneous without any buffer delays, making this system fast, efficient and real-time.
+
 ## 3)   State Machine.
+
+In this sytem, microcontroller is storing last state of LEDs for its next flipping operation. We have variable to store elapsed time and flipping state accordingly, during every iteration of loop. The output, which is flipping the state of LED (either ON or OFF) is dependent only on the state, and the next state is dependent on the current state (or output), and the input. Hence concept of Finite State machine or particularly speaking, concept of Moore Finite State machine is implemented successfully.
