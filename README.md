@@ -44,3 +44,7 @@ Complete arduino sketch solution for first task. This sketch contains functions 
 ## ECE5620_Assignment_2.ino
 
 Complete arduino sketch for second task. This sketch contains all the functionalities of sketch `ECE5620_Assignment_1.ino`. In addition to that, this code has functions to receive analog data from sensor and printing state of LEDs.
+
+## README.md
+
+The summary of repo.
