@@ -22,16 +22,16 @@ In this sytem, microcontroller is storing last state of LEDs for its next flippi
 
 Mealy Finite State Machine:
 
-	    _________________________
-	    |			                  |
-	    |	      |\		          |
-	    |------>| \		          |
-		          |  \		        |
-		          |   \___________|------>  Output (Present State)
-		          |   /
+	_________________________
+	|			|
+	|	|\		|
+	|------>| \		|
+		|  \		|
+		|   \___________|------>  Output (Present State)
+		|   /
 Input	------->|  /
-		          | /
-		          |/
+		| /
+		|/
 
 
 # Files in repo::
