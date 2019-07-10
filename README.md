@@ -21,18 +21,20 @@ Thus, microcontroller is performing multitasking. As a result of this, response 
 In this sytem, microcontroller is storing last state of LEDs for its next flipping operation. We have variable to store elapsed time and flipping state accordingly, during every iteration of loop. The output, which is flipping the state of LED (either ON or OFF) is dependent only on the state, and the next state is dependent on the current state (or output), and the input. Hence concept of Finite State machine or particularly speaking, concept of Moore Finite State machine is implemented successfully.
 
 Mealy Finite State Machine:
+/*
 
-	_________________________
-	|			|
-	|	|\		|
-	|------>| \		|
-		|  \		|
-		|   \___________|------>  Output (Present State)
-		|   /
-Input	------->|  /
-		| /
-		|/
+		_________________________
+		|			|
+		|	|\		|
+		|------>| \		|
+			|  \		|
+			|   \___________|------>  Output (Present State)
+			|   /
+	Input	------->|  /
+			| /
+			|/
 
+*/
 
 # Files in repo::
 
